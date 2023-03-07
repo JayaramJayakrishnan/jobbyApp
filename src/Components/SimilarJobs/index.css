@@ -1,0 +1,40 @@
+.similar-job-item-card {
+  background-color: #272727;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  color: #f1f5f9;
+  width: 45%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.similar-job-description-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.similar-job-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .similar-job-item-card {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 15px 15px;
+  }
+
+  .similar-job-description-heading {
+    font-size: 16px;
+  }
+
+  .similar-job-description {
+    font-size: 12px;
+  }
+}

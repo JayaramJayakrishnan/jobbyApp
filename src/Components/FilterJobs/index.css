@@ -1,0 +1,85 @@
+.profile-filter-container {
+  width: 20%;
+}
+
+@media (max-width: 767px) {
+  .profile-filter-container {
+    width: 100%;
+  }
+}
+
+.filter-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .filter-heading {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+.employment-types-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.employment-type {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .employment-type {
+    margin-bottom: 10px;
+  }
+}
+
+.employment-type-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .employment-type-label {
+    font-size: 12px;
+  }
+}
+
+.jobs-page-hr {
+  border: 1px #64748b solid;
+}
+
+.salary-ranges-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.salary-range {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .salary-range {
+    margin-bottom: 10px;
+  }
+}
+
+.salary-range-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .salary-range-label {
+    font-size: 12px;
+  }
+}
